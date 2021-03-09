@@ -1,276 +1,291 @@
-
-
 /*==============Button Top Starts ====================*/
 #buttonTop {
-	cursor: pointer;
-	display: none;
-	position: fixed;
-	bottom: 50px;
-	right: 30px;
-	border-radius: 10px;
-	transition: color 0.2s linear 0s, background 0.2s linear 0s; 
-	background-color: #FCBB7B;
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  border-radius: 10px;
+  transition: color 0.2s linear 0s, background 0.2s linear 0s;
+  background-color: #fcbb7b;
 }
 #buttonTop:hover {
-	background-color: darkorange;
+  background-color: darkorange;
 }
 #buttonTop:hover i {
-	color: white;
+  color: white;
 }
 /*==============Button Top Ends ====================*/
 
-
 /*==============Copyrights Starts ====================*/
-.copyrightt { 
-	min-height:40px; background-color:#EBF5FB   ;
+.copyrightt {
+  min-height: 40px;
+  background-color: #ebf5fb;
 }
-.copyrightt p { 
- 	text-align:left; color:#17202A; padding:10px 0; margin-bottom:0px;
+.copyrightt p {
+  text-align: left;
+  color: #17202a;
+  padding: 10px 0;
+  margin-bottom: 0px;
 }
 /*==============Copyrights Ends ====================*/
 
-
-
-
 /*********************************In main.php*********************************/
-#welcomeText{
-	position: absolute;
-	right: 15%;
-	top: 17%;
-	left: 15%;
-	text-align: center;
-	color: #ee0ea3;
-	font-size: 90px;
-	font-weight: bold;
-	font-family: "Comic Sans MS";
+#welcomeText {
+  position: absolute;
+  right: 15%;
+  top: 17%;
+  left: 15%;
+  text-align: center;
+  color: #ee0ea3;
+  font-size: 90px;
+  font-weight: bold;
+  font-family: 'Comic Sans MS';
 
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 
-    display: none;
+  display: none;
 }
-#parallaxMainIntro{
-	background-image: url('../img/main3.jpg');
-	height: 100%; 
+#parallaxMainIntro {
+  background-image: url('../img/main10.jpeg');
+  height: 100%;
 
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #borderhrintro {
-	margin-left: 0;
-	width: 50%;
-	background-color: grey;
-	height: 5px;
-	border-radius: 10px;
+  margin-left: 0;
+  width: 50%;
+  background-color: grey;
+  height: 5px;
+  border-radius: 10px;
 }
-.news_img img{
-	width: auto;
-    height: 400px;
-    right: 1000px;
-    border-radius: 100%;
-    margin-left: 150px;
-    margin-right: auto;
+.news_img img {
+  width: auto;
+  height: 400px;
+  right: 1000px;
+  border-radius: 100%;
+  margin-left: 150px;
+  margin-right: auto;
 }
-.uni_img img{
-	width: auto;
-    height: 250px;
-    left: 150px;
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: 200px;
+.uni_img img {
+  width: auto;
+  height: 250px;
+  left: 150px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: 200px;
 }
-.freelancer_img img{
-	width: auto;
-    height: 250px;
-    right: 1000px;
-    border-radius: 100%;
-    margin-left: 80px;
-    margin-right: auto;
+.freelancer_img img {
+  width: auto;
+  height: 250px;
+  right: 1000px;
+  border-radius: 100%;
+  margin-left: 80px;
+  margin-right: auto;
 }
-.software_img img{
-	width: auto;
-    height: 300px;
-    left: 200px;
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: 100px;
+.software_img img {
+  width: auto;
+  height: 300px;
+  left: 200px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: 100px;
 }
-.post1_img img{
-	width: auto;
-    height: 300px;
-    left: 200px;
-    border-radius: 8px;
-    margin-left: 850px;
-    margin-right: 100px;
+.post1_img img {
+  width: auto;
+  height: 300px;
+  left: 200px;
+  border-radius: 8px;
+  margin-left: 850px;
+  margin-right: 100px;
 }
 
-.newdiv b{
-    left: 200px;
-    margin-left: 800px;
-    margin-right: auto;
+.newdiv b {
+  left: 200px;
+  margin-left: 800px;
+  margin-right: auto;
 }
-.newdiv p{
-    left: 200px;
-    margin-left: 500px;
-    margin-right: auto;
+.newdiv p {
+  left: 200px;
+  margin-left: 500px;
+  margin-right: auto;
 }
-.header h3{
-	color: #3498DB;
+.header h3 {
+  color: #3498db;
 }
-.header h4{
-	color: #34db50;
+.header h4 {
+  color: #34db50;
 }
-.header h5{
-	color: #17202A;
+.header h5 {
+  color: #17202a;
 }
-.newsTitleTab{
- 	font-weight: bold;
- 	text-decoration: underline;
- 	color: black;
+.newsTitleTab {
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
 }
 .mainParallax2 {
-   background-image: url('../img/main1.jpg');
-   height: 20%; 
+  background-image: url('../img/main1.jpg');
+  height: 20%;
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footerinfo {
-	background-color: rgba(14, 167, 238, 0.548)  ;
-	color: white;
-	padding-top: 60px;
-	padding-bottom: 50px;
-	text-align: center;
+  background-color: rgba(14, 167, 238, 0.548);
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 #footerinfoaboutus {
-	text-align: justify;
+  text-align: justify;
 }
-.footerlink { 
- 	color:white; 
- 	transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+.footerlink {
+  color: white;
+  transition: color 0.2s linear 0s, background 0.2s linear 0s;
 }
-a[class="footerlink"]:hover {
- 	color: #ff9000;
+a[class='footerlink']:hover {
+  color: #ff9000;
 }
-.fa-facebook-square, .fa-twitter-square, .fa-youtube-square, .fa-instagram {
-	font-size: 40px;
-	color: black;
-	transition: color 0.2s linear 0s, background 0.2s linear 0s;
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-youtube-square,
+.fa-instagram {
+  font-size: 40px;
+  color: black;
+  transition: color 0.2s linear 0s, background 0.2s linear 0s;
 }
 
-.fa-facebook-square:hover, .fa-twitter-square:hover, .fa-youtube-square:hover, .fa-instagram:hover {
-	color: #ff9000;
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-youtube-square:hover,
+.fa-instagram:hover {
+  color: #ff9000;
 }
-
-
 
 /*********************************In Intreview_Exam.php*********************************/
-#interviewExamBody{
-	background-color: #F1F1F1;
+#interviewExamBody {
+  background-color: #f1f1f1;
 }
-#interviewExamBody form{
-	background-color: white; margin-top: 4%; margin-bottom: 2%; border: 1px solid lightgrey; padding:1%;
+#interviewExamBody form {
+  background-color: white;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  border: 1px solid lightgrey;
+  padding: 1%;
 }
-#interviewTitle{
-	border-bottom: 1px solid lightgrey;
-	color: darkorange;
-	font-weight: bold;
+#interviewTitle {
+  border-bottom: 1px solid lightgrey;
+  color: darkorange;
+  font-weight: bold;
 }
-.Question{
-	margin-left: 2%;
+.Question {
+  margin-left: 2%;
 }
-.interviewChoices{
-	margin-right: 2%;
-	margin-left: 4%;
+.interviewChoices {
+  margin-right: 2%;
+  margin-left: 4%;
 }
-#Q1, #Q2, #Q3, #Q4, #Q5, #Qsubmit{
-	display: none;
+#Q1,
+#Q2,
+#Q3,
+#Q4,
+#Q5,
+#Qsubmit {
+  display: none;
 }
-#interviewExamBody form{
-    min-height:800px;
+#interviewExamBody form {
+  min-height: 800px;
 }
-
 
 /*********************************In Grades.php*********************************/
 #chart_wrap {
-    position: relative;
-    padding-bottom: 100%;
-    height: 0;
-    overflow:hidden;
+  position: relative;
+  padding-bottom: 100%;
+  height: 0;
+  overflow: hidden;
 }
 #chart_div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width:100%;
-    height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 #gradesBody {
-   height: 100%;
-   margin: 0;
+  height: 100%;
+  margin: 0;
 }
-.gradesDiv{
-	border:1px solid lightgrey; min-height:1000px; border-radius:8px;
+.gradesDiv {
+  border: 1px solid lightgrey;
+  min-height: 1000px;
+  border-radius: 8px;
 }
-.gradesDiv div{
-	margin: 2%; 
+.gradesDiv div {
+  margin: 2%;
 }
 .gradesInfo {
-	font-size: 15px;
-	color:darkred;
-	padding-left: 2%;
+  font-size: 15px;
+  color: darkred;
+  padding-left: 2%;
 }
-.gradesInfo + button{
-	margin-left: 2%;
+.gradesInfo + button {
+  margin-left: 2%;
 }
 #column1Grades {
-	margin:5% 2% 5% 0%;
+  margin: 5% 2% 5% 0%;
 }
-
 
 /*********************************In Questions.php*********************************/
 
-#questionsBody{
-    height: 100%;
-    margin: 0;
+#questionsBody {
+  height: 100%;
+  margin: 0;
 }
 
 .parallaxquestion {
-   background-image: url('../img/ParallaxQuestions.png');
-   height: 100%; 
+  background-image: url('../img/ParallaxQuestions.png');
+  height: 100%;
 
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.QuestionsDiv{
-	border:1px solid lightgrey; min-height:1000px; border-radius:8px;
+.QuestionsDiv {
+  border: 1px solid lightgrey;
+  min-height: 1000px;
+  border-radius: 8px;
 }
-.questionStart{
-	display: none;
+.questionStart {
+  display: none;
 }
-.QuestionsDiv div{
-	margin: 2%; 
+.QuestionsDiv div {
+  margin: 2%;
 }
-.QuestionsDiv table{
-	width:88%;
+.QuestionsDiv table {
+  width: 88%;
 }
 .QuestionsDiv th:nth-of-type(1) {
-	font-size: 20px;
+  font-size: 20px;
 }
 .questionInfo {
-	font-size: 15px;
-	color:darkred;
-	padding-left: 10%;
-	float: right;
+  font-size: 15px;
+  color: darkred;
+  padding-left: 10%;
+  float: right;
 }
-.QuestionsDiv td{
-	width:30%; border-right:1px solid lightgrey; padding:0% 2% 0% 2%;
-	font-size: 15px;
+.QuestionsDiv td {
+  width: 30%;
+  border-right: 1px solid lightgrey;
+  padding: 0% 2% 0% 2%;
+  font-size: 15px;
 }
