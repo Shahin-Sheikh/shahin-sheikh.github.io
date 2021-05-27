@@ -214,13 +214,14 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: var(--third-color);
 }
 .home__social-icon:hover {
   color: var(--first-color);
 }
 .home__img {
   position: absolute;
+  padding: 0.75rem 2.5rem;
   right: 0;
   bottom: 0;
   width: 295px;
@@ -232,7 +233,6 @@ img {
   width: 400px;
   border-radius: 0.5rem;
 }
-
 /*BUTTONS*/
 .button {
   display: inline-block;
@@ -490,6 +490,6 @@ img {
     margin-right: auto;
   }
   .home__img {
-    right: 10%;
+    right: 8%;
   }
 }
