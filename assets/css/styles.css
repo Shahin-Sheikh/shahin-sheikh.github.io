@@ -225,6 +225,13 @@ img {
   bottom: 0;
   width: 295px;
 }
+.home__img {
+  justify-self: center;
+}
+.home__img img {
+  width: 400px;
+  border-radius: 0.5rem;
+}
 
 /*BUTTONS*/
 .button {
