@@ -1,446 +1,1366 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Welcome to Md. Shahin Sheikh Portfolio</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-    <!-- =====BOX ICONS===== -->
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
     <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
 
-    <title>Shahin Sheikh</title>
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
   </head>
+
   <body>
-    <!--===== HEADER =====-->
-    <header class="l-header">
-      <nav class="nav bd-grid">
-        <div>
-          <a href="#" class="nav__logo">Shahin</a>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img
+            src="assets/img/profile-img-4.jpg"
+            alt=""
+            class="img-fluid rounded-circle"
+          />
+          <h1 class="text-light"><a href="index.html">Md. Shahin Sheikh</a></h1>
+          <div class="social-links mt-3 text-center">
+            <a href="https://github.com/Shahin-Sheikh" class="github"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/shahin89/" class="linkedin"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://www.facebook.com/shahinheikh/" class="facebook"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/stmt_shahin/" class="instagram"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
         </div>
 
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active">Home</a>
+        <nav id="navbar" class="nav-menu navbar">
+          <ul>
+            <li>
+              <a href="#hero" class="nav-link scrollto active"
+                ><i class="bx bx-home"></i> <span>Home</span></a
+              >
             </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">About</a>
+            <li>
+              <a href="#about" class="nav-link scrollto"
+                ><i class="bx bx-user"></i> <span>About</span></a
+              >
             </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">Skills</a>
+            <li>
+              <a href="#resume" class="nav-link scrollto"
+                ><i class="bx bx-file-blank"></i> <span>Resume</span></a
+              >
             </li>
-            <li class="nav__item">
-              <a href="#work" class="nav__link">Projects</a>
+            <li>
+              <a href="#portfolio" class="nav-link scrollto"
+                ><i class="bx bx-book-content"></i> <span>Portfolio</span></a
+              >
             </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">Contact</a>
+            <li>
+              <a href="#services" class="nav-link scrollto"
+                ><i class="bx bx-server"></i> <span>Services</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav-link scrollto"
+                ><i class="bx bx-envelope"></i> <span>Contact</span></a
+              >
             </li>
           </ul>
-        </div>
-
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
-      </nav>
-    </header>
-
-    <main class="l-main">
-      <!--===== HOME =====-->
-      <section class="home bd-grid" id="home">
-        <div class="home__data">
-           <div class="home__img">
-          <img src="assets/img/pp2.png" alt="" />
-        </div>
-          <h1 class="home__title">
-            Hi,<br />I'am
-            <span class="home__title-color">Md. Shahin Sheikh</span><br />
-            Web Developer
-          </h1>
-
-          <a href="#" class="button">Contact</a>
-        </div>
-
-        <div class="home__social">
-          <a href="https://www.linkedin.com/in/muhammad-shahin-sheikh/" target="_blank" class="home__social-icon"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a href="https://www.facebook.com/shahinheikh/" target="_blank" class="home__social-icon"
-            ><i class="bx bxl-facebook"></i
-          ></a>
-          <a href="https://github.com/Shahin-Sheikh" target="_blank" class="home__social-icon"><i class="bx bxl-github"></i></a>
-        </div>
-      </section>
-
-      <!--===== ABOUT =====-->
-      <section class="about section" id="about">
-        <h2 class="section-title">About</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="assets/img/pp2.png" alt="" />
-          </div>
-
-          <div>
-            <h2 class="about__subtitle" style="color: #3498DB">I'am Md. Shahin Sheikh</h2>
-            <p class="about__text">
-              I am a full-stack web developer with a vast array of knowledge in
-              many different front-end and back-end languages, responsive
-              frameworks, databases, and best code practices. My objective is
-              simply to the best web developer that I can be and to contribute
-              to the technology industry all that I know and can do. I am
-              dedicated to perfecting craft my craft by learning from more
-              seasoned developers, remaining humble, and continuously making
-              strides to learn all that I can about development, while i was a
-              student at AIUB, I actively attend codeforces weekly contest, And
-              I solved many problems from hackerrank. I participated icpc 2020.
-              So I believe that my understanding of problem-solving and complex
-              algorithms are also skills that have and will continue to
-              contribute to my overall success as a developer. Feel free to check
-              my linkedin profile<a href="https://www.linkedin.com/in/muhammad-shahin-sheikh/" target="_blank" style="color: #3970F4"> linkedin!</a>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!--===== My Journey =====-->
-      <section class="about section" id="about">
-        <h2 class="section-title">Education</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="assets/img/aiub-campus.jpg" alt="" />
-          </div>
-
-          <div>
-            <h2 class="about__subtitle" style="color: #3498DB">
-              American International University-Bangladesh(AIUB)
-            </h2>
-            <h3 class="about__subtitle" style="color: #34DB50">
-              B.Sc In Computer Science & Engineering
-            </h3>
-            <h3 class="about__subtitle" style="color: #CAF753">
-              Graduated In 2021
-            </h3
-            <h4 class="about__subtitle">Dhaka, Bangladesh</h4>
-            <hr id="borderhrintro" />
-            <p class="about__text">
-              American International University-Bangladesh(AIUB) is one of the
-              famous private university in bangladesh.I have already passed
-              three years in AIUB. In these three years I have learned a lot
-              from my respected teachers.My experience in software development
-              with respected faculty showed me the power of empathetic
-              leadership and expanded my development comfort zone.AIUB showed me
-              what I love to do, gifted me with a love for learning, and
-              surrounded me with a wealth of inspiring peers.Feel free to check
-              my University<a href="https://www.aiub.edu/" target="_blank" style="color: #3970F4"> AIUB!</a>
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="about section" id="about">
-        <h2 class="section-title">Web Development</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="assets/img/web3.jpg" alt="" />
-          </div>
-
-          <div>
-            <h2 class="about__subtitle" style="color: #3498DB">Full Stack Web Developer</h2>
-            <hr id="borderhrintro" />
-            <p class="about__text">
-              I started my professional career as a desktop application developer since 2019, I thought I would stick with desktop ecosystem and becoming an windows application expert.
-               Things went well until 2020 when I wanted to build my own products. I started with desktop apps only using paid API services, then things getting complicated and 
-               I started to develop website and backend for my apps.
-               Feel free to check
-              my Github Account<a href="https://github.com/Shahin-Sheikh" target="_blank" style="color: #3970F4"> Github!</a>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="about section" id="about">
-        <h2 class="section-title">Problem Solving</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="assets/img/prb.jpeg" alt="" />
-          </div>
-
-          <div>
-            <h2 class="about__subtitle" style="color: #3498DB"> ACM || ICPC || Codeforces || Hackerrank</h2>
-            <hr id="borderhrintro" />
-            <p class="about__text">
-              I started my competitive programming career in the middle of 2020, First I start with hackerrank and solve 100+ problems from there. I achieve a hackerrank problem-solving gold badge in 2021. Then in 2021 I switch to codeforces and start solving from there and actively participate in weekly contests. Then I and my team participate in ICPC, we achieve rank 802 out of 1500+ teams.  Competitive programming is a “mind sport” like a quiz show or a chess tournament. I love to do this.
-              Feel free to check
-              my Hackerrank Account<a href="https://www.hackerrank.com/shahinsheikh885" target="_blank" style="color: #3970F4"> Hackerrank!</a>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="about section" id="about">
-        <h2 class="section-title">Research Domain</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="assets/img/reserach.jpeg" alt="" />
-          </div>
-
-          <div>
-            <h2 class="about__subtitle" style="color: #3498DB">Smart Contracts On Blockchain</h2>
-            <hr id="borderhrintro" />
-            <p class="about__text">
-              Every new innovation is the result of an attempt to solve a problem. Blockchain technology is no exception. It's quite evident after learning about the evolution of blockchain technology that it arose because of a need to address the inevitability of uncertainty in the existing economy.
-One of the reasons I took Blockchain as a Research domain is because its features surprised me.
-When I was browsing the internet with my research domain, it occurred to me that this smart contract technology in online shopping is capable of bringing unimaginable change through blockchain.
-One question that keeps popping up in my head is that we don't often find good products in online shopping. Many times I don't get a good product even if I pay in advance. Many are victims of such harassment in online shopping.
-Then I wonder if a system can be created where buyers and sellers can trade freely. The buyer will not be afraid to pay in advance. And this system is able to ensure that he will get 100% good product.
-And the seller will be 100% sure that he is getting his money after the product is delivered. In this way we are able to create a trusted online shopping.
-If this system is implemented in online shopping or e-commerce sites I believe online shopping or e-commerce will start moving in a new direction.
-This is the reason I am interested in it.
-Feel free to check
-              my researchgate Profile<a href="hhttps://www.researchgate.net/profile/Md-Sheikh-12" target="_blank" style="color: #3498DB"> Researchgate!</a>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!--===== SKILLS =====-->
-      <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
-
-        <div class="skills__container bd-grid">
-          <div>
-            <h2 class="skills__subtitle" style="color: #3498DB">Technical Skills</h2>
-            <p class="skills__text">
-              I am a full-stack web developer with a vast array of knowledge in
-              many different front-end and back-end languages, responsive
-              frameworks, databases, and best code practices.
-            </p>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class=""></i>
-                <span class="skills__name">JAVASCRIPT</span>
-              </div>
-              <div class="skills__bar skills__js"></div>
-              <div>
-                <span class="skills__percentage">90%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-java skills__icon"></i>
-                <span class="skills__name">JAVA</span>
-              </div>
-              <div class="skills__bar skills__java"></div>
-              <div>
-                <span class="skills__percentage">90%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-c++ skills__icon"></i>
-                <span class="skills__name">C++</span>
-              </div>
-              <div class="skills__bar skills__cplus"></div>
-              <div>
-                <span class="skills__percentage">90%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-c# skills__icon"></i>
-                <span class="skills__name">C#</span>
-              </div>
-              <div class="skills__bar skills__csharp"></div>
-              <div>
-                <span class="skills__percentage">65%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx"></i>
-                <span class="skills__name">HTML5</span>
-              </div>
-              <div class="skills__bar skills__html"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx"></i>
-                <span class="skills__name">CSS3</span>
-              </div>
-              <div class="skills__bar skills__css"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx"></i>
-                <span class="skills__name">BootStrap</span>
-              </div>
-              <div class="skills__bar skills__boot"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx"></i>
-                <span class="skills__name">ReactJs</span>
-              </div>
-              <div class="skills__bar skills__React"></div>
-              <div>
-                <span class="skills__percentage">70%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx"></i>
-                <span class="skills__name">PHP</span>
-              </div>
-              <div class="skills__bar skills__php"></div>
-              <div>
-                <span class="skills__percentage">80%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx"></i>
-                <span class="skills__name">ExpressJs</span>
-              </div>
-              <div class="skills__bar skills__express"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx"></i>
-                <span class="skills__name">NodeJs</span>
-              </div>
-              <div class="skills__bar skills__node"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx"></i>
-                <span class="skills__name">MongoDB</span>
-              </div>
-              <div class="skills__bar skills__mongo"></div>
-              <div>
-                <span class="skills__percentage">80%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx"></i>
-                <span class="skills__name">MySql</span>
-              </div>
-              <div class="skills__bar skills__sql"></div>
-              <div>
-                <span class="skills__percentage">80%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx"></i>
-                <span class="skills__name">Deployment</span>
-              </div>
-              <div class="skills__bar skills__dep"></div>
-              <div>
-                <span class="skills__percentage">50%</span>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <img src="assets/img/skills.jpg" alt="" class="skills__img" />
-          </div>
-        </div>
-      </section>
-
-            <!--===== Projects =====-->
-      <section class="work section" id="work">
-        <h2 class="section-title">Projects</h2>
-
-        <div class="work__container bd-grid">
-          <div class="work__img">
-            <h5 class="work_title" style="color: #6F8895"> MERN reviewhub</h5>
-            <img src="assets/img/work1.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <h5 class="work_title" style="color: #6F8895"> MERN Social Media</h5>
-            <img src="assets/img/work2.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <h5 class="work_title" style="color: #6F8895"> MERN Ecommerce</h5>
-            <img src="assets/img/work3.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <h5 class="work_title" style="color: #6F8895">Human resource management system</h5>
-            <img src="assets/img/work4.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <h5 class="work_title" style="color: #6F8895">Citizen Service(Desktop Version)</h5>
-            <img src="assets/img/work5.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <h5 class="work_title" style="color: #6F8895">Citizen Service(Mobile Version)</h5>
-            <img src="assets/img/work6.jpg" alt="" />
-          </div>
-        </div>
-      </section>
-      <!--===== CONTACT =====-->
-      <section class="contact section" id="contact">
-        <h2 class="section-title">Contact</h2>
-
-        <div class="contact__container bd-grid">
-          <form action="" class="contact__form">
-            <input type="text" placeholder="Name" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
-            <textarea
-              name=""
-              id=""
-              cols="0"
-              rows="10"
-              class="contact__input"
-            ></textarea>
-            <input
-              type="button"
-              value="Submit"
-              class="contact__button button"
-            />
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <!--===== FOOTER =====-->
-    <footer class="footer">
-      <p class="footer__title">Shahin</p>
-      <div class="footer__social">
-        <a href="https://www.facebook.com/shahinheikh/" target="_blank" class="footer__icon"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/stmt_shahin/" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-        <a href="https://twitter.com/Muhamma26971341" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+        </nav>
+        <!-- .nav-menu -->
       </div>
-      <p>&#169; 2021 copyright all right reserved</p>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section
+      id="hero"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Md. Shahin Sheikh</h1>
+        <p>
+          I'm
+          <span
+            class="typed"
+            data-typed-items="Software Engineer, Freelancer, Traveller, Photographer"
+          ></span>
+        </p>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>About</h2>
+            <p>
+              Welcome to my portfolio! I'm an accomplished full-stack software
+              developer, proficient in a diverse array of front-end and back-end
+              languages, responsive frameworks, and adeptly skilled in managing
+              various database systems. My insatiable curiosity drives me to
+              continuously explore emerging technologies, while my competitive
+              spirit has led me to engage in numerous programming contests on
+              platforms like Codeforces. Beyond the realm of coding, I'm an avid
+              explorer with an unquenchable wanderlust, traversing the globe to
+              create unforgettable memories. Capturing moments through the lens
+              is my passion, lending a unique perspective to my travels. On
+              wheels, whether it's a car or a bike, I find exhilaration and
+              freedom. Immersing myself in the captivating worlds of movies,
+              series, and video games fuels my creativity and offers me diverse
+              storytelling inspiration. And in the realm of sports, cricket is
+              my enduring passion, a game that mirrors the strategic intricacies
+              I cherish in my coding endeavors. With an insatiable appetite for
+              knowledge and an unyielding passion for multifaceted experiences,
+              I'm not just a developer; I'm an explorer, a creator, and a
+              storyteller.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img
+                src="assets/img/profile-img-2.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3>Software Engineer &amp; Web Developer.</h3>
+              <p class="fst-italic">
+                As a full-stack software developer, I have experience with a
+                variety of front-end and back-end languages, responsive
+                frameworks, and database management systems.
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Birthday:</strong> <span>1 January 2000</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Website:</strong> <span>www.example.com</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Phone:</strong> <span>+880 178 645 2354</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>City:</strong>
+                      <span>Banani, Dhaka , Bangladesh</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                      <span>23</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Degree:</strong> <span>Bachelor</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Personal Email:</strong>
+                      <span>shahinsheikh885@gmail.com</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Office Email:</strong>
+                      <span>shahin.sheikh@technonext.com</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p>
+                Beyond the realm of coding, I'm an avid explorer with an
+                unquenchable wanderlust, traversing the globe to create
+                unforgettable memories. Capturing moments through the lens is my
+                passion, lending a unique perspective to my travels. On wheels,
+                whether it's a car or a bike, I find exhilaration and freedom.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Facts Section ======= -->
+      <section id="facts" class="facts">
+        <div class="container">
+          <div class="section-title">
+            <h2>Facts</h2>
+            <p>
+              By staying abreast of industry trends and leveraging cutting-edge
+              technologies, I consistently deliver imaginative and impactful
+              creations. With proficiency ranging from web development and
+              software engineering to digital marketing, I offer a comprehensive
+              skill set to deliver well-rounded solutions.
+            </p>
+          </div>
+
+          <div class="row no-gutters">
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+            >
+              <div class="count-box">
+                <i class="bi bi-emoji-smile"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="2"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Happy Clients</strong></p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="count-box">
+                <i class="bi bi-journal-richtext"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="8"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Projects</strong></p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="count-box">
+                <i class="bi bi-headset"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="100"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Hours Of Support</strong></p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="count-box">
+                <i class="bi bi-people"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="2"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p><strong>Hard Workers</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Facts Section -->
+
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Skills</h2>
+            <p>
+              Proficient in building responsive and dynamic websites using
+              ReactJS, NextJs, NodeJs, ExpressJs, MongoDB, and JavaScript,
+              TypeScript with a focus on user-friendly interfaces and seamless
+              navigation. A strong analytical thinker, I thrive on identifying
+              challenges and implementing creative solutions to ensure optimal
+              project outcomes.
+            </p>
+          </div>
+
+          <div class="row skills-content">
+            <div class="col-lg-6" data-aos="fade-up">
+              <div class="progress">
+                <span class="skill">ReactJS <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">TypeScript <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">NextJs <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="progress">
+                <span class="skill">NodeJs <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">ExpressJs <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">C++ <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Photoshop <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="55"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Skills Section -->
+
+      <!-- ======= Resume Section ======= -->
+      <section id="resume" class="resume">
+        <div class="container">
+          <div class="section-title">
+            <h2>Resume</h2>
+            <p>
+              I have embarked on a dynamic journey in the digital realm, where
+              creativity and technical prowess converge. With a Bachelor's
+              degree in Computer Science and a passion for software engineering,
+              I've cultivated a diverse skill set that bridges the gap between
+              development and aesthetics.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up">
+              <h3 class="resume-title">Sumary</h3>
+              <div class="resume-item pb-0">
+                <h4>Md. Shahin Sheikh</h4>
+                <p>
+                  <em
+                    >Resourceful and results-oriented Software Engineer boasting
+                    over 2 years of expertise in conceiving and crafting
+                    user-centric digital and print marketing assets. Proficient
+                    in seamlessly navigating projects from their inception
+                    through to meticulously refined and polished final
+                    deliverables, all while honoring strict deadlines.</em
+                  >
+                </p>
+                <ul>
+                  <li>Banani, Road#05, Dhaka - 1213</li>
+                  <li>(+880) 1786-452-354</li>
+                  <li>alice.barkley@example.com</li>
+                </ul>
+              </div>
+
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Master of Business Administration</h4>
+                <h5>2023 - Present</h5>
+                <p><em>University of Dhaka, Dhaka, Bangladesh</em></p>
+                <p>
+                  Currently enrolled in the prestigious Master of Business
+                  Administration (MBA) program at the esteemed University of
+                  Dhaka, I am on a journey to cultivate strategic insights and
+                  leadership acumen in the world of business.
+                </p>
+                <hr style="border: none; border-top: 1px dotted #999" />
+                <strong>Key Courses:</strong>
+                <p></p>
+                <ul>
+                  <li>Strategic Management</li>
+                  <li>Marketing Management</li>
+                  <li>Financial Management</li>
+                  <li>Human Resource Management</li>
+                  <li>Business Communication</li>
+                  <li>Business Research Methodology</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Bachelor of Computer Science &amp; Engineering</h4>
+                <h5>2018 - 2022</h5>
+                <h5>CGPA: 3.53</h5>
+                <p>
+                  <em
+                    >American International University - Bangladesh, Dhaka,
+                    Bangladesh</em
+                  >
+                </p>
+                <p>
+                  I am a proud alumnus of American International University -
+                  Bangladesh (AIUB), holding a Bachelor of Science degree in
+                  Computer Science & Engineering—a transformative educational
+                  experience that has shaped my technical prowess and
+                  problem-solving capabilities.
+                </p>
+                <hr style="border: none; border-top: 1px dotted #999" />
+                <span>
+                  <strong>Key Courses:</strong>
+                  <ul>
+                    <li>Algorithms & Data Structures</li>
+                    <li>Software Engineering</li>
+                    <li>Database Management Systems</li>
+                    <li>Object-Oriented Programming</li>
+                    <li>Computer Networks</li>
+                    <li>Operating Systems</li>
+                  </ul>
+                </span>
+                <hr style="border: none; border-top: 1px dotted #999" />
+                <strong>Academic Excellence:</strong>
+                <p>
+                  Throughout my tenure at AIUB, I engaged with a rigorous
+                  curriculum that combined theoretical knowledge with hands-on
+                  practical applications. From algorithms and data structures to
+                  software engineering principles, I gained a comprehensive
+                  understanding of computer science fundamentals that continue
+                  to underpin my professional journey.
+                </p>
+                <hr style="border: none; border-top: 1px dotted #999" />
+                <strong>Capstone Projects and Research: </strong>
+                <p>
+                  A highlight of my AIUB journey was engaging in capstone
+                  projects and research endeavors. These initiatives allowed me
+                  to explore specialized areas within computer science,
+                  developing solutions that showcased innovation and
+                  practicality—a testament to the holistic education AIUB
+                  offered.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Professional Experience</h3>
+              <div class="resume-item">
+                <h4>Software Engineer</h4>
+                <h5>2023 - Present</h5>
+                <p><em>TechnoNext Ltd, Baridhara, Dhaka, Bangladesh </em></p>
+                <p>
+                  At TechnoNext Ltd., I've been at the forefront of creating
+                  transformative digital solutions, with a focus on frontend
+                  development using ReactJs, NextJs, Typescript, and a toolkit
+                  of design libraries including Material UI, Ant Design, Prime
+                  React, and Formik. Through my dedication and expertise, I've
+                  made impactful contributions to a range of high-profile
+                  projects, each leaving an indelible mark on the digital
+                  landscape.
+                </p>
+                <hr style="border: none; border-top: 1px dotted #999" />
+                <strong>Key Contributions:</strong>
+                <ul>
+                  <li>
+                    Spearheaded the development of a dynamic web application
+                    that allows users to create and manage their own
+                    personalized portfolios, leveraging ReactJs, NextJs,
+                    Typescript, Material UI, and Ant Design.
+                  </li>
+                  <li>
+                    Developed a responsive web application that allows users to
+                    create and manage their own personalized portfolios,
+                    leveraging ReactJs, NextJs, Typescript, Material UI, and Ant
+                    Design.
+                  </li>
+                  <li>
+                    Developed a responsive web application that allows users to
+                    create and manage their own personalized portfolios,
+                    leveraging ReactJs, NextJs, Typescript, Material UI, and Ant
+                    Design.
+                  </li>
+                  <li>
+                    Developed a responsive web application that allows users to
+                    create and manage their own personalized portfolios,
+                    leveraging ReactJs, NextJs, Typescript, Material UI, and Ant
+                    Design.
+                  </li>
+                </ul>
+
+                <div>
+                  <h5
+                    style="
+                      text-align: center;
+                      background-color: #f2f2f2;
+                      padding: 15px 0;
+                      margin: 0;
+                      font-size: 20px;
+                      color: #333;
+                      border-top: 2px solid #590be9;
+                      border-bottom: 2px solid #590be9;
+                      width: 100%;
+                    "
+                  >
+                    Projects
+                  </h5>
+                </div>
+
+                <strong
+                  >Elevating E-commerce: Shoplover E-commerce Platform:</strong
+                >
+
+                <p>
+                  I played a pivotal role in the development of Shoplover, a
+                  prominent e-commerce platform that captures the essence of
+                  user-centric design. By seamlessly integrating ReactJs with
+                  Material UI, I ensured a visually appealing and intuitive
+                  interface that enhances user experience and drives conversion
+                  rates.
+                  <a href="https://shoplover.com/"
+                    >Click here to visit Shoplover</a
+                  >
+                </p>
+                <!--  <a
+                  href="www.shoplover.com"
+                  style="
+                    display: inline-block;
+                    background-color: #231057;
+                    color: #fff;
+                    padding: 8px 15px;
+                    text-decoration: none;
+                    border-radius: 5px;
+                  "
+                  >Click here to visit Shoplover</a
+                > -->
+                <hr style="border: none; border-top: 1px dotted #999" />
+                <strong
+                  >Seamless Asset Management: USB Land Asset System:
+                </strong>
+
+                <p>
+                  For the USB Land Asset System, I utilized my expertise in
+                  ReactJs and Typescript to create a seamless platform for
+                  tracking and managing assets. By incorporating Prime React, I
+                  designed a user-friendly interface that ensures precise asset
+                  monitoring and management.
+                  <a href="https://www.usbassets.com/"
+                    >Click here to visit USB Land Asset</a
+                  >
+                </p>
+                <!--  <a
+                  href="https://www.usbassets.com/"
+                  style="
+                    display: inline-block;
+                    background-color: #231057;
+                    color: #fff;
+                    padding: 8px 15px;
+                    text-decoration: none;
+                    border-radius: 5px;
+                  "
+                  >Click here to visit USB Land Asset</a
+                > -->
+                <hr style="border: none; border-top: 1px dotted #999" />
+
+                <strong
+                  >Efficiency Unleashed: Inventory Management System:</strong
+                >
+
+                <p>
+                  Leveraging my technical acumen, I designed and implemented a
+                  sophisticated Inventory Management System that streamlined
+                  operations and inventory tracking. Utilizing ReactJs and Ant
+                  Design, I crafted a responsive and efficient solution that
+                  empowers businesses to manage their resources with precision.
+                  <a href="#">Click here to visit Inventory Dashboard</a>
+                </p>
+                <!--  <a
+                  href="#"
+                  style="
+                    display: inline-block;
+                    background-color: #231057;
+                    color: #fff;
+                    padding: 8px 15px;
+                    text-decoration: none;
+                    border-radius: 5px;
+                  "
+                  >Click here to visit Inventory Dashboard</a
+                > -->
+                <hr style="border: none; border-top: 1px dotted #999" />
+                <strong>Empowering Insights: Administrative Dashboard: </strong>
+
+                <p>
+                  I spearheaded the creation of an Administrative Dashboard,
+                  equipping decision-makers with real-time insights through
+                  intuitive data visualization. Harnessing NextJs and Prime
+                  React, I transformed complex data into actionable information,
+                  amplifying business agility and informed decision-making.
+                  <a href="#">Click here to visit Admin Dashboard</a>
+                </p>
+                <!--  <a
+                  href="#"
+                  style="
+                    display: inline-block;
+                    background-color: #231057;
+                    color: #fff;
+                    padding: 8px 15px;
+                    text-decoration: none;
+                    border-radius: 5px;
+                  "
+                  >Click here to visit Admin Dashboard</a
+                > -->
+                <hr style="border: none; border-top: 1px dotted #999" />
+              </div>
+              <div class="resume-item">
+                <h4>Software Engineer Intern</h4>
+                <h5>2021 - 2022</h5>
+                <p>
+                  <em
+                    >Teletalk Bangladesh Limited, Gulshan-1, Dhaka,
+                    Bangladesh</em
+                  >
+                </p>
+                <ul>
+                  <li>Developed API for Login & Registration System.</li>
+                  <li>
+                    Managed up to 2 projects or tasks at a given time while
+                    under pressure.
+                  </li>
+                  <li>
+                    Implemented Approval system, Improved data rendering time.
+                    Developed an efficient and fast searching algorithm for the
+                    approval system.
+                  </li>
+                  <li>Developed GUI for the front end.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Resume Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Portfolio</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-card">Card</li>
+                <li data-filter=".filter-web">Web</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-1-copy.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-1-copy.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="App 1"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-2-copy.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-2-copy.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Web 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-3-copy.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-3-copy.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="App 2"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-4-copy.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-4-copy.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Card 2"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-5.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-5.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Web 2"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-6.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-6.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="App 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-7.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-7.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Card 1"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-8.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-8.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Card 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-9.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-9.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Web 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-title">
+            <h2>Services</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bi bi-briefcase"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi sint occaecati cupiditate non provident
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
+              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <p class="description">
+                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat tarad limino ata
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon"><i class="bi bi-bar-chart"></i></div>
+              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <p class="description">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="icon"><i class="bi bi-binoculars"></i></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="icon"><i class="bi bi-brightness-high"></i></div>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <p class="description">
+                Et harum quidem rerum facilis est et expedita distinctio. Nam
+                libero tempore, cum soluta nobis est eligendi
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Testimonials</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div
+            class="testimonials-slider swiper"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item" data-aos="fade-up">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum suscipit rhoncus. Accusantium quam,
+                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                    risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-1.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse
+                    labore quem cillum quid cillum eram malis quorum velit fore
+                    eram velit sunt aliqua noster fugiat irure amet legam anim
+                    culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-2.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim
+                    sint quorum nulla quem veniam duis minim tempor labore quem
+                    eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-3.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                    multos export minim fugiat minim velit minim dolor enim duis
+                    veniam ipsum anim magna sunt elit fore quem dolore labore
+                    illum veniam.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-4.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure
+                    aliqua veniam tempor noster veniam enim culpa labore duis
+                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
+                    fore nisi cillum quid.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-5.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div class="row" data-aos="fade-in">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 290px"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="name">Subject</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="10"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>iPortfolio</span></strong>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
     </footer>
+    <!-- End  Footer -->
 
-    <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-    <!--===== MAIN JS =====-->
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
